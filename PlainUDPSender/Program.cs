@@ -4,18 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PlainUDPReceiver
+namespace PlainUDPSender
 {
     class Program
     {
         private const int Port = 11001;
         static void Main(string[] args)
         {
-            UdpReceiver receiver = new UdpReceiver(Port);
-            receiver.Start();
+            UdpSender sender = new UdpSender(Port);
+            sender.Start();
 
             Console.ReadLine();
-        
         }
     }
 }

@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlainUDPReceiver", "PlainUDPReceiver\PlainUDPReceiver.csproj", "{14E5932E-9669-4F78-AED4-79E275E152FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlainUDPSender", "PlainUDPSender\PlainUDPSender.csproj", "{66D0F28E-8A4C-4B70-8A96-3C559864D50E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelLib", "ModelLib\ModelLib.csproj", "{27E93C1A-7916-4FF0-9A1D-C21B54DACD93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{14E5932E-9669-4F78-AED4-79E275E152FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14E5932E-9669-4F78-AED4-79E275E152FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14E5932E-9669-4F78-AED4-79E275E152FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D0F28E-8A4C-4B70-8A96-3C559864D50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D0F28E-8A4C-4B70-8A96-3C559864D50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D0F28E-8A4C-4B70-8A96-3C559864D50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D0F28E-8A4C-4B70-8A96-3C559864D50E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E93C1A-7916-4FF0-9A1D-C21B54DACD93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E93C1A-7916-4FF0-9A1D-C21B54DACD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E93C1A-7916-4FF0-9A1D-C21B54DACD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E93C1A-7916-4FF0-9A1D-C21B54DACD93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
